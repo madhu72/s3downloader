@@ -1,0 +1,4 @@
+downloadedmails/*
+emailfetch*
+go.sum
+app.yml

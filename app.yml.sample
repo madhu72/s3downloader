@@ -1,0 +1,8 @@
+---
+s3:
+   access_key_id: ACCESSKEYID
+   secret_key: SECRETKEYID
+   bucket: S3BUCKET
+   region: S3REGION
+   download_path: downloaded-documents
+   path_sep: \
