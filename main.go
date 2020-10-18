@@ -8,14 +8,14 @@ package main
 
 import (
 	"fmt"
-	"emailfetch/s3picker"
+	"s3downloader/s3picker"
 )
 
 func main() {
-	fmt.Printf("Running Email Fetch ...\n")
+	fmt.Printf("Running Fetch Documents...\n")
 	app := &s3picker.S3Manager{}
 	app.LoadYaml("app.yml")
 	//app.ShowConfig()
-	app.ShowSecurityDetails()
+	//app.ShowSecurityDetails()
 	app.DownloadDocuments()
 }

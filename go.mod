@@ -1,4 +1,4 @@
-module emailfetch
+module s3downloader
 
 go 1.15
 
