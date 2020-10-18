@@ -1,4 +1,4 @@
 downloadedmails/*
-emailfetch*
+s3downloader*
 go.sum
 app.yml
